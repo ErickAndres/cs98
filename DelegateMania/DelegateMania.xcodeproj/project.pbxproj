@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE584511435353B00861249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE584501435353B00861249 /* UIKit.framework */; };
+		0AE584531435353B00861249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE584521435353B00861249 /* Foundation.framework */; };
+		0AE584551435353B00861249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE584541435353B00861249 /* CoreGraphics.framework */; };
+		0AE5845B1435353B00861249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE584591435353B00861249 /* InfoPlist.strings */; };
+		0AE5845D1435353B00861249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5845C1435353B00861249 /* main.m */; };
+		0AE584611435353B00861249 /* DelegateManiaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE584601435353B00861249 /* DelegateManiaAppDelegate.m */; };
+		0AE5846A1435354D00861249 /* FirstPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE584671435354D00861249 /* FirstPage.xib */; };
+		0AE5846C1435354D00861249 /* SecondPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE584691435354D00861249 /* SecondPage.xib */; };
+		0AE5846F1435356700861249 /* FirstPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5846E1435356700861249 /* FirstPageController.m */; };
+		0AE584721435357300861249 /* SecondPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE584711435357300861249 /* SecondPageController.m */; };
+		0AE584751435357D00861249 /* ThirdPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE584741435357D00861249 /* ThirdPageController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AE5844C1435353B00861249 /* DelegateMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE584501435353B00861249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AE584521435353B00861249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AE584541435353B00861249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AE584581435353B00861249 /* DelegateMania-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateMania-Info.plist"; sourceTree = "<group>"; };
+		0AE5845A1435353B00861249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AE5845C1435353B00861249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AE5845E1435353B00861249 /* DelegateMania-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegateMania-Prefix.pch"; sourceTree = "<group>"; };
+		0AE5845F1435353B00861249 /* DelegateManiaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateManiaAppDelegate.h; sourceTree = "<group>"; };
+		0AE584601435353B00861249 /* DelegateManiaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateManiaAppDelegate.m; sourceTree = "<group>"; };
+		0AE584671435354D00861249 /* FirstPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPage.xib; sourceTree = "<group>"; };
+		0AE584691435354D00861249 /* SecondPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondPage.xib; sourceTree = "<group>"; };
+		0AE5846D1435356700861249 /* FirstPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageController.h; sourceTree = "<group>"; };
+		0AE5846E1435356700861249 /* FirstPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageController.m; sourceTree = "<group>"; };
+		0AE584701435357300861249 /* SecondPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPageController.h; sourceTree = "<group>"; };
+		0AE584711435357300861249 /* SecondPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPageController.m; sourceTree = "<group>"; };
+		0AE584731435357D00861249 /* ThirdPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPageController.h; sourceTree = "<group>"; };
+		0AE584741435357D00861249 /* ThirdPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPageController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AE584491435353B00861249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE584511435353B00861249 /* UIKit.framework in Frameworks */,
+				0AE584531435353B00861249 /* Foundation.framework in Frameworks */,
+				0AE584551435353B00861249 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE584411435353B00861249 = {
+			isa = PBXGroup;
+			children = (
+				0AE584561435353B00861249 /* DelegateMania */,
+				0AE5844F1435353B00861249 /* Frameworks */,
+				0AE5844D1435353B00861249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AE5844D1435353B00861249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AE5844C1435353B00861249 /* DelegateMania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AE5844F1435353B00861249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AE584501435353B00861249 /* UIKit.framework */,
+				0AE584521435353B00861249 /* Foundation.framework */,
+				0AE584541435353B00861249 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AE584561435353B00861249 /* DelegateMania */ = {
+			isa = PBXGroup;
+			children = (
+				0AE5845F1435353B00861249 /* DelegateManiaAppDelegate.h */,
+				0AE584601435353B00861249 /* DelegateManiaAppDelegate.m */,
+				0AE5846D1435356700861249 /* FirstPageController.h */,
+				0AE5846E1435356700861249 /* FirstPageController.m */,
+				0AE584701435357300861249 /* SecondPageController.h */,
+				0AE584711435357300861249 /* SecondPageController.m */,
+				0AE584731435357D00861249 /* ThirdPageController.h */,
+				0AE584741435357D00861249 /* ThirdPageController.m */,
+				0AE584571435353B00861249 /* Supporting Files */,
+			);
+			path = DelegateMania;
+			sourceTree = "<group>";
+		};
+		0AE584571435353B00861249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE584671435354D00861249 /* FirstPage.xib */,
+				0AE584691435354D00861249 /* SecondPage.xib */,
+				0AE584581435353B00861249 /* DelegateMania-Info.plist */,
+				0AE584591435353B00861249 /* InfoPlist.strings */,
+				0AE5845C1435353B00861249 /* main.m */,
+				0AE5845E1435353B00861249 /* DelegateMania-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AE5844B1435353B00861249 /* DelegateMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE584641435353B00861249 /* Build configuration list for PBXNativeTarget "DelegateMania" */;
+			buildPhases = (
+				0AE584481435353B00861249 /* Sources */,
+				0AE584491435353B00861249 /* Frameworks */,
+				0AE5844A1435353B00861249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelegateMania;
+			productName = DelegateMania;
+			productReference = 0AE5844C1435353B00861249 /* DelegateMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AE584431435353B00861249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kevin Jorgensen";
+			};
+			buildConfigurationList = 0AE584461435353B00861249 /* Build configuration list for PBXProject "DelegateMania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AE584411435353B00861249;
+			productRefGroup = 0AE5844D1435353B00861249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AE5844B1435353B00861249 /* DelegateMania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AE5844A1435353B00861249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE5845B1435353B00861249 /* InfoPlist.strings in Resources */,
+				0AE5846A1435354D00861249 /* FirstPage.xib in Resources */,
+				0AE5846C1435354D00861249 /* SecondPage.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE584481435353B00861249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE5845D1435353B00861249 /* main.m in Sources */,
+				0AE584611435353B00861249 /* DelegateManiaAppDelegate.m in Sources */,
+				0AE5846F1435356700861249 /* FirstPageController.m in Sources */,
+				0AE584721435357300861249 /* SecondPageController.m in Sources */,
+				0AE584751435357D00861249 /* ThirdPageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AE584591435353B00861249 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE5845A1435353B00861249 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AE584621435353B00861249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AE584631435353B00861249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AE584651435353B00861249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DelegateMania/DelegateMania-Prefix.pch";
+				INFOPLIST_FILE = "DelegateMania/DelegateMania-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AE584661435353B00861249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DelegateMania/DelegateMania-Prefix.pch";
+				INFOPLIST_FILE = "DelegateMania/DelegateMania-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE584461435353B00861249 /* Build configuration list for PBXProject "DelegateMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE584621435353B00861249 /* Debug */,
+				0AE584631435353B00861249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE584641435353B00861249 /* Build configuration list for PBXNativeTarget "DelegateMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE584651435353B00861249 /* Debug */,
+				0AE584661435353B00861249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AE584431435353B00861249 /* Project object */;
+}
